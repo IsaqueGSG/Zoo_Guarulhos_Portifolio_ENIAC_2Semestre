@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="stilo.css">
+    <link rel="stylesheet" type="text/css" href="animacoes.css">
+    <script type="text/javascript" src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Zoologico de Guarulhos</title>
+</head>
+
+
+<body>
+    <div id="container"><!--caixa principal-->
+
+        <header id="cabeçalho" class="cursive"> <!--cabecalho-->
+
+            <fieldset>
+                <legend><h1> ZOOLÓGICO DE GUARULHOS</h1></legend>
+                <h2> Temos varios animais super interresantes<br> venha visitar e admirar</h2>
+            
+                <b><!--menu de navegacao-->
+
+                <a href=""> HOME</a>|
+                <a href="#linkAnimais"> ANIMAIS</a>|
+                <a href="#linkFotos"> FOTOS DOS ANIMAL </a>|
+                <a href="#mapa"> COMO CHEGAR</a>
+
+                <b>
+            </fieldset>
+            
+            <br>
+            <br>
+            
+
+            <fieldset id="sobreZoo"><!--sobre o zoologico-->>
+
+                <legend><h2>SOBRE O ZOOLÓGICO DE GUARULHOS</h2></legend>
+
+
+                <h3> 
+                    <p> O Zoológico fica aberto de terça a domingo, das 09:00hrs às 17:00hrs. <br> <br>    
+                    A entrada para o Zoológico é gratuita    <br><br> 
+                    o Zoológico não disponibiliza lanchonetes, porém há área de lazer com espaço para piquenique.</p>
+                </h3> 
+
+                
+            </fieldset>
+
+        </header><br>
+
+        <main>
+
+            <br><br id="linkAnimais">
+                
+           <!--conteudo principal-->
+            <fieldset id="animais">
+
+                <legend><h2><b class="cursive">ANIMAIS</b></h2></legend><!--animacao carrossel-->
+                <section id=carrossel>
+
+                    <div class="fotos">
+                        <img src="imagens/animal2.jpg">
+                        <img src="imagens/animal7.jpg">
+                        <img src="imagens/animal6.jpg">
+                        <img src="imagens/animal8.jpg">
+                        <img src="imagens/animal7.jpg">
+                    </div>
+                </section><br>
+
+                <section id="curiosidades" class="cursive"><!--curiosidades sobre os animais do zoologico-->
+
+                        <legend><h2><b> CURIOSIDADES</b></h2></legend>
+
+                        <p><H4> NOSSA DIVERSIDADE DE ANIMAIS</H4>
+                            O Zoológico de Guarulhos, mantém cerca de 500 animais, de 100 diferentes 
+                        espécies, priorizando a fauna nacional, com 91% de espécies nativas. Além da rica vegetação com árvores
+                        nativas também mantemos arvores exóticas que proporciona uma linda paisagem e ainda contribui com a alimentação 
+                        das nossas aves.    
+                            possui uma área de mata e lagos que atraem muitas espécies de 
+                        aves de vida livre, que podem ser observadas e fotografadas facilmente.</p>
+                    
+
+                </section> 
+           
+
+                <br>
+                <br>
+                <br>
+                <br>
+
+                <div> <!--jogo para a familia-->
+
+                    <button onclick="jogo()" id="jogo" class="cursive">
+                    <h4> BRINQUE COM A FÁMILIA <br><br> QUE ANIMAL VOCÊ SERIA? <br> clique aqui e descubra  </h4>
+                    </button>
+                    <br>
+                    <br>
+                    <img id="resp" src="imagens/pergunta.png"></img>
+                </div>
+
+            </fieldset>
+
+            <br>
+            <br>
+            <br id="linkFotos">
+
+            <H1><B class="cursive">FOTOS DOS ANIMAIS</B></H1>
+
+            <br>
+
+
+            <section  class='sobre_animais'> <!--apresenta os animais do zoo-->
+
+
+                <fieldset class="fotos"><!--fotos e sobre animais mamiferos-->
+
+                    <legend><h2><b class="cursive"> ANIMAIS MAMIFEROS</b></h2></legend>
+                    
+                        <div>
+                            <img src="imagens/animal8.jpg" class="img_animal">
+                            <p>
+                                <h2>LONTRA</h2>
+                                Ocorrência na Amazônia, cerrado, mata atlântica, pantanal e campos do sul. Alimenta-se de peixes, crustáceos, répteis, aves e pequenos mamíferos. Possui geralmente hábito noturno. Os machos desta espécie apresentam hábito solitário e só se juntam à fêmea para reprodução. As principais ameaças são perda de habitat, poluição da água e caça.
+                            <p><br>
+                        </div>
+
+                        <div>
+                            <img src="imagens/animal9.jpg" class="img_animal">
+                            <p class="teste">
+                                <h2>TAMANDUÁ-BANDEIRA</h2>
+                                Rosto alongado e fino, grande língua com saliva pegajosa e garras fortes são evidências da adaptação do tamanduá a uma alimentação exclusiva à base de formigas e cupins. Solitário, encontra parceiros apenas para a reprodução. Nasce um filhote após gestação de 190 dias. Habita cerrados, campos e florestas úmidas das Américas do Sul e Central. A espécie é vítima de atropelamentos, incêndios e caça ilegal.
+                            <p><br>
+                        </div>           
+                        
+                        <div>
+                            <img src="imagens/lobo guara.jpg" class="img_animal">
+                            <p>
+                                <h2>Lobo guará (Chrysocyon brachyurus)</h2>
+                                É uma espécie de pernas longas, coloração alaranjada e orelhas grandes, que habita ambientes abertos como campos e cerrados. Ocorre no Brasil central, áreas do sudeste e sul. Alimentam-se de frutos e pequenos vertebrados, sendo injustamente acusados de predação de aves domésticas, o que leva a sua perseguição e abate, o que, aliado a atropelamentos, ameaça a espécie.
+                            <p><br>
+                        </div>
+
+                        <div>
+                            <img src="imagens/gato pequeno.jpg" class="img_animal">
+                            <p>
+                                <h2>Gato do mato pequeno (Leopardus tigrinus)</h2>
+                                O menor felino brasileiro é um animal solitário, de hábito noturno, que habita o solo, mas é capaz de escalar árvores com facilidade, sendo encontrado em todos os biomas do Brasil. A gestação de cerca de 2 meses gera apenas um filhote. Embora possa adaptar-se a áreas modificadas pelo homem, a redução das áreas naturais ameaça a sobrevivência da espécie.
+                            <p><br>
+                        </div>
+
+                        <div>
+                            <img src="imagens/onça pintada.jpg" class="img_animal">
+                            <p>
+                                <h2>Onça pintada (Panthera onca)</h2>
+                                Maior felídeo das Américas, ocorre por todo o Brasil, ocupando florestas densas da Amazônia e Mata Atlântica, áreas de Cerrado e Caatinga e o Pantanal. Necessitam grandes áreas com boa quantidade de presas para viver, sendo a redução de habitat e o isolamento ameaças à espécie. Os conflitos devido a predação e os atropelamentos são também fatores de impacto sobre as populações.
+                            <p><br>
+                        </div>
+
+                <br>
+                </fieldset> 
+
+                    <br><br>
+
+                <fieldset class="fotos"> <!--fotos e sobre aves-->
+
+                        <legend><h2><b class="cursive"> AVES </b></h2></legend>
+                    
+                        <div>
+                            <img src="imagens/mutum-do-sudeste.jpg" class="img_animal">
+                            <p>
+                                <h2>Mutum do sudeste (Crax blumenbachii)</h2>
+                                Espécie endêmica da Mata Atlântica de baixada, passa a maior parte do tempo no solo, onde se alimenta de frutos e sementes, e se empoleira para dormir e nidificar. Atualmente é encontrado apenas em 11 localidades em Minas Gerais, Espírito Santo e Bahia, habitando matas primárias ou em avançada regeneração, sendo muito sensível à caça, alteração e fragmentação de seu habitat.
+                            <p><br>
+                        </div>
+
+                        <div>
+                            <img src="imagens/papagaio do peito roxo.jpg" class="img_animal">
+                            <p>
+                                <h2>Papagaio de peito roxo (Amazona vinacea)</h2>
+                                Caracterizado pela coloração arroxeada do peito, este papagaio habita as florestas frias, principalmente matas de araucárias, formando grandes bandos. Antes encontrada desde a Bahia até o Rio Grande do Sul, hoje restringe-se ao sudeste e sul do Brasil. A destruição de seu habitat preferencial e a captura pelo tráfico são grandes ameaças á sobrevivência da espécie.
+                            <p><br>
+                        </div>
+
+                        <div>
+                            <img src="imagens/ema.jpg" class="img_animal">
+                            <p>
+                                <h2>EMA (Rhea americana)</h2>
+                                Maior ave das Américas, podendo chegar até 1,40 m. Ocorre em campos naturais, cerrados e áreas agropecuárias. Machos diferem das fêmeas por possuírem a região anterior do peito e pescoço negra. Alimenta-se de frutos, folhas, sementes, insetos e pequenos animais. Ingere pedras para auxiliar na digestão. Ameaçada de extinção devido principalmente à caça.
+                            <p><br>
+                        </div>
+                        
+                        <div>
+                            <img src="imagens/urubu-rei.jpg" class="img_animal">
+                            <p>
+                                <h2>Urubu rei (Sarcoramphus papa)</h2>
+                                Ocorre em florestas densas e áreas abertas adjacentes. Devido à baixa reprodutividade da espécie e a degradação do seu habitat, é uma espécie cada vez mais rara. Possui envergadura que varia de 170 a 198 cm e peso de 3 a 5 kg. Ave diurna de grande importância ecológica, já que se alimenta de carcaças. Sua distribuição se dá em todo Brasil, sendo mais comum no norte, nordeste e centro oeste.
+                            <p><br>
+                        </div>
+                        
+                        <div>
+                            <img src="imagens/arara-caninde.jpg" class="img_animal">
+                            <p>
+                                <h2>Arara Canindé (Ara ararauna)</h2>
+                                Habita florestas úmidas, matas de galeria, buritizais e palmais diversos. Também conhecida como arara amarela, mede cerca de 80 cm. Migra em certas épocas do ano, em busca de alimento. Desloca-se grandes distancias durante o dia, alimentando-se basicamente de sementes, frutas e nozes. Uma das araras mais apreciadas em cativeiro, sendo este o principal motivo de ameaça.
+                            <p><br>
+                        </div>
+
+                <br>
+                 </fieldset>
+
+                <br><br>
+
+                <fieldset class="fotos"> <!--fotos e sobre repteis-->
+
+                        <legend><h2><b class="cursive"> REPTEIS </b></h2></legend>
+                    
+                        <div>
+                            <img src="imagens/iguana.jpg" class="img_animal">
+                            <p>
+                                <h2>IGUANA (Iguana iguana)</h2>
+                                A iguana (Iguana iguana) é um réptil pertencente à Ordem Squamata, Família Iguanidae e Gênero Iguana. Ela é encontrada na região tropical e subtropical da América, apresentando ampla distribuição pelo Brasil. Apresentam hábito diurno e arborícola, sendo encontradas em regiões próximas a corpos d'água.
+                            <p><br>
+                        </div>
+
+                        <div>
+                            <img src="imagens/teiu.jpg" class="img_animal">
+                            <p>
+                                <h2>TEIÚ ARGENTINO (Tupinambis rufescens)</h2>
+                                Mesmo sendo terrestres o Teiú pode escalar árvores se necessário. Quando ameaçado o Teiú fica imóvel utilizando sua cor para se camuflar no ambiente e pode emitir um silvo para alertar sua presença. Após o nascimento dos filhotes a fêmea apresenta o cuidado parental até que seus filhotes consigam caçar por conta própria. Por ter frutas em sua dieta é tido como uma espécie dispersora de sementes.
+                            <p><br>
+                        </div>
+
+                        <div>
+                            <img src="imagens/jabuti.jpg" class="img_animal">
+                            <p>
+                                <h2>JABUTI PIRANGA (Chelonoidis carbonaria)</h2>
+                                O jabuti-piranga é uma das duas espécies de jabuti conhecidas. Por ser a espécie mais comum dos jabutis, também é chamado abreviadamente como jabuti, jaboti, jabutim, jabuti-vermelho, em nas comunidades rurais do Alto Trombetas em Oriximiná, como curixá.
+                            <p><br>
+                        </div>
+                        
+                <br>
+                </fieldset>
+            
+               
+            </section><br>
+        </main>
+
+
+        <!--rodape da pagina-->
+         <footer>
+
+            <section id="mapa"><!--como chegar ao zoologico-->
+                <h2>COMO CHEGAR</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3660.494326993973!2d-46.55546158520949!3d-23.44262716310295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef4ffea13bf09%3A0xb8d85899781b01d4!2sZool%C3%B3gico%20Municipal%20de%20Guarulhos!5e0!3m2!1spt-BR!2sbr!4v1648233364633!5m2!1spt-BR!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section><br>
+
+        
+           <a href="#cabeçalho"class="topo"><img src="imagens/seta-dupla-para-cima.png"></a>
+
+         </footer>
+
+         
+
+
+    </div><br>
+
+  
+
+
+         
+        
+
+
+</body>
+</html>

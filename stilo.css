@@ -1,0 +1,115 @@
+/*GERAL*/
+*{
+	border-radius: 10px;
+}
+body{
+	background: url(imagens/fundo6.jpg);
+	background-attachment: fixed;
+
+}
+#container{
+	text-align: center;
+	width: 80%;
+	margin: 0 auto ;
+	position: relative;
+}
+
+header{
+	padding: 10px;
+}
+
+main{
+	position: relative;
+	margin: 10px;
+}
+
+footer{
+	margin: 10px;
+}
+
+
+#sobreZoo {
+	padding: 10px;
+	position: relative;
+
+}
+
+fieldset{
+	border: 2px solid black;
+}
+
+.cursive{
+font-family: cursive;
+}
+
+a{
+	text-decoration: none;
+	display: inline;
+	padding-left: 50px;
+	color: black;
+}
+
+.fotos{
+	border-color: black transparent ;
+}
+
+/*FIM GERAL*/
+
+
+
+
+/*INICIO INDIVIDUAL*/
+
+header a{
+	padding: 0 5px 0 5px ;
+}
+
+.img_animal{
+	float: left;
+	width: 250px;
+	height: 167px;
+}
+
+.sobre_animais div{
+	background-color: #5466;
+	height: 167px;
+}
+.sobre_animais p{
+	padding: 5px;
+	color: rgb(255, 255, 255);
+}
+
+#jogo{
+	background-color: transparent;
+}
+#jogo:hover,.topo:hover{
+	cursor: pointer;
+}
+#resp{
+	width: 350px;
+	height: 267px;
+}
+
+
+
+#curiosidades{
+	border-radius: 10px;
+	padding: 10px;
+}
+
+
+/*botao para o topo*/
+.topo{ 
+	border: 2px solid #5466;
+	border-radius: 50%;
+	position: fixed;
+	right: 30px;
+	bottom: 30px;
+	height: 80px;
+	width: 80px;
+	padding: 0;
+}
+.topo img{	
+	padding: 13px;
+	width: 50px;
+}

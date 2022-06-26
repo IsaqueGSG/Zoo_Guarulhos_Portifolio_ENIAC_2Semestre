@@ -1,0 +1,100 @@
+/*inicio carocel*/
+#carrossel{	
+	width: 800px;
+	margin: 0 auto;
+	height: 600px;
+	overflow: hidden;
+
+}
+#carrossel .fotos{
+	width: 500%;
+	animation-name: animacao;
+	animation-duration: 30s;
+	animation-iteration-count: infinite;
+}
+#carrossel .fotos img{
+	width: 19.9%;
+}
+@keyframes animacao{
+	0%{margin-left: 0;}
+	10%{margin-left: 0;}
+	20%{margin-left: -100%;}
+	30%{margin-left: -100%;}
+	40%{margin-left: -200%;}
+	50%{margin-left: -200%;}
+	60%{margin-left: -300%;}
+	80%{margin-left: -300%;}
+	90%{margin-left: -400%;}
+	100%{margin-left: -400%;}
+}/*fim carrossel*/
+
+
+
+
+/*aumenta o tamanho do elemento quando o mouse passar por cima*/
+
+/*inicio sobre os animais*/
+.sobre_animais div{
+ 	transition: transform 1s;
+  	transform: translateX(0) scale(1.0);
+}
+
+.sobre_animais div:hover,focus {
+  	transform: translateX(10px) scale(1.1);
+}/*fim sobre os animais*/
+
+/*botao para o topo*/
+.topo{
+	transition: transform 1s;
+  	transform: translateX(0) scale(1.0);
+}	
+
+.topo:hover{
+	transform: translateY(10px) scale(1.1);
+}
+
+/*jogo*/
+#jogo{
+	transition: transform 1s;
+  	transform: translateX(0) scale(1.0);
+}	
+
+#jogo:hover{
+	transform: translateY(10px) scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
